@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.geometryvalues.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Elige">
+
+            <RadioButton
+                android:id="@+id/Triangulo"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@color/antiquewhite"/>
+
+            <RadioButton
+                android:id="@+id/Circulo"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@color/aliceblue"/>
+
+            <RadioButton
+                android:id="@+id/Cuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@color/aquamarine"/>
+
+            <RadioButton
+                android:id="@+id/Cubo"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@color/lightyellow"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@color/antiquewhite">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/triangulo" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="L1(cm)"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/Tlado1"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="L2(cm)"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/Tlado2"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="L3(cm)"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/Tlado3"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@color/aliceblue">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="Radio (cm)"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/Cradio"/>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/circulo" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@color/aquamarine">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cuadrado" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="Lado (cm)"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/Cdlado"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@color/lightyellow">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="Lado (cm)"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/Cblado"/>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/cubo" />
+
+             </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Calcular"
+            android:background="@color/bisque"
+            android:id="@+id/Calcular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Mostrar"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>

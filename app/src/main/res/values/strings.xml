@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Conversor100%RealNotFake</string>
+    <string name="app_name">Conversor entre USD y COP</string>
     <string name="titulo">Conversor</string>
     <string name="cambiar">Convertir</string>
 

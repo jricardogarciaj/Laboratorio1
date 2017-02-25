@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.calculadoraderesistencias.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/LayoutStyle">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B1"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Elige1">
+
+                <RadioButton style="@style/RadioButtonBlack"
+                    android:id="@+id/Ne1"/>
+
+                <RadioButton style="@style/RadioButtonBrown"
+                    android:id="@+id/Ca1"/>
+
+                <RadioButton style="@style/RadioButtonRed"
+                    android:id="@+id/Ro1" />
+
+                <RadioButton style="@style/RadioButtonOrange"
+                    android:id="@+id/Na1" />
+
+                <RadioButton style="@style/RadioButtonYellow"
+                    android:id="@+id/Am1"/>
+
+                <RadioButton style="@style/RadioButtonGreen"
+                    android:id="@+id/Ve1"/>
+
+                <RadioButton style="@style/RadioButtonBlue"
+                    android:id="@+id/Az1" />
+
+                <RadioButton style="@style/RadioButtonPurple"
+                    android:id="@+id/Mo1" />
+
+                <RadioButton style="@style/RadioButtonGray"
+                    android:id="@+id/Gr1"/>
+
+                <RadioButton style="@style/RadioButtonWhite"
+                    android:id="@+id/Bl1"/>
+
+                <RadioButton style="@style/RadioButtonGold"
+                    android:id="@+id/Do1" />
+
+                <RadioButton style="@style/RadioButtonPlate"
+                    android:id="@+id/Pl1" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutStyle">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B2"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Elige2">
+
+                <RadioButton style="@style/RadioButtonBlack"
+                    android:id="@+id/Ne2"/>
+
+                <RadioButton style="@style/RadioButtonBrown"
+                    android:id="@+id/Ca2"/>
+
+                <RadioButton style="@style/RadioButtonRed"
+                    android:id="@+id/Ro2" />
+
+                <RadioButton style="@style/RadioButtonOrange"
+                    android:id="@+id/Na2" />
+
+                <RadioButton style="@style/RadioButtonYellow"
+                    android:id="@+id/Am2"/>
+
+                <RadioButton style="@style/RadioButtonGreen"
+                    android:id="@+id/Ve2"/>
+
+                <RadioButton style="@style/RadioButtonBlue"
+                    android:id="@+id/Az2" />
+
+                <RadioButton style="@style/RadioButtonPurple"
+                    android:id="@+id/Mo2" />
+
+                <RadioButton style="@style/RadioButtonGray"
+                    android:id="@+id/Gr2"/>
+
+                <RadioButton style="@style/RadioButtonWhite"
+                    android:id="@+id/Bl2"/>
+
+                <RadioButton style="@style/RadioButtonGold"
+                    android:id="@+id/Do2" />
+
+                <RadioButton style="@style/RadioButtonPlate"
+                    android:id="@+id/Pl2" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutStyle">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B3"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Elige3">
+
+                <RadioButton style="@style/RadioButtonBlack"
+                    android:id="@+id/Ne3"/>
+
+                <RadioButton style="@style/RadioButtonBrown"
+                    android:id="@+id/Ca3"/>
+
+                <RadioButton style="@style/RadioButtonRed"
+                    android:id="@+id/Ro3" />
+
+                <RadioButton style="@style/RadioButtonOrange"
+                    android:id="@+id/Na3" />
+
+                <RadioButton style="@style/RadioButtonYellow"
+                    android:id="@+id/Am3"/>
+
+                <RadioButton style="@style/RadioButtonGreen"
+                    android:id="@+id/Ve3"/>
+
+                <RadioButton style="@style/RadioButtonBlue"
+                    android:id="@+id/Az3" />
+
+                <RadioButton style="@style/RadioButtonPurple"
+                    android:id="@+id/Mo3" />
+
+                <RadioButton style="@style/RadioButtonGray"
+                    android:id="@+id/Gr3"/>
+
+                <RadioButton style="@style/RadioButtonWhite"
+                    android:id="@+id/Bl3"/>
+
+                <RadioButton style="@style/RadioButtonGold"
+                    android:id="@+id/Do3" />
+
+                <RadioButton style="@style/RadioButtonPlate"
+                    android:id="@+id/Pl3" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutStyle">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B4"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Elige4">
+
+                <RadioButton style="@style/RadioButtonBlack"
+                    android:id="@+id/Ne4"/>
+
+                <RadioButton style="@style/RadioButtonBrown"
+                    android:id="@+id/Ca4"/>
+
+                <RadioButton style="@style/RadioButtonRed"
+                    android:id="@+id/Ro4" />
+
+                <RadioButton style="@style/RadioButtonOrange"
+                    android:id="@+id/Na4" />
+
+                <RadioButton style="@style/RadioButtonYellow"
+                    android:id="@+id/Am4"/>
+
+                <RadioButton style="@style/RadioButtonGreen"
+                    android:id="@+id/Ve4"/>
+
+                <RadioButton style="@style/RadioButtonBlue"
+                    android:id="@+id/Az4" />
+
+                <RadioButton style="@style/RadioButtonPurple"
+                    android:id="@+id/Mo4" />
+
+                <RadioButton style="@style/RadioButtonGray"
+                    android:id="@+id/Gr4"/>
+
+                <RadioButton style="@style/RadioButtonWhite"
+                    android:id="@+id/Bl4"/>
+
+                <RadioButton style="@style/RadioButtonGold"
+                    android:id="@+id/Do4" />
+
+                <RadioButton style="@style/RadioButtonPlate"
+                    android:id="@+id/Pl4" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutStyle">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B5"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Elige5">
+
+                <RadioButton style="@style/RadioButtonBlack"
+                    android:id="@+id/Ne5"/>
+
+                <RadioButton style="@style/RadioButtonBrown"
+                    android:id="@+id/Ca5"/>
+
+                <RadioButton style="@style/RadioButtonRed"
+                    android:id="@+id/Ro5" />
+
+                <RadioButton style="@style/RadioButtonOrange"
+                    android:id="@+id/Na5" />
+
+                <RadioButton style="@style/RadioButtonYellow"
+                    android:id="@+id/Am5"/>
+
+                <RadioButton style="@style/RadioButtonGreen"
+                    android:id="@+id/Ve5"/>
+
+                <RadioButton style="@style/RadioButtonBlue"
+                    android:id="@+id/Az5" />
+
+                <RadioButton style="@style/RadioButtonPurple"
+                    android:id="@+id/Mo5" />
+
+                <RadioButton style="@style/RadioButtonGray"
+                    android:id="@+id/Gr5"/>
+
+                <RadioButton style="@style/RadioButtonWhite"
+                    android:id="@+id/Bl5"/>
+
+                <RadioButton style="@style/RadioButtonGold"
+                    android:id="@+id/Do5" />
+
+                <RadioButton style="@style/RadioButtonPlate"
+                    android:id="@+id/Pl5" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LayoutStyle">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B6"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Elige6">
+
+                <RadioButton style="@style/RadioButtonBlack"
+                    android:id="@+id/Ne6"/>
+
+                <RadioButton style="@style/RadioButtonBrown"
+                    android:id="@+id/Ca6"/>
+
+                <RadioButton style="@style/RadioButtonRed"
+                    android:id="@+id/Ro6" />
+
+                <RadioButton style="@style/RadioButtonOrange"
+                    android:id="@+id/Na6" />
+
+                <RadioButton style="@style/RadioButtonYellow"
+                    android:id="@+id/Am6"/>
+
+                <RadioButton style="@style/RadioButtonGreen"
+                    android:id="@+id/Ve6"/>
+
+                <RadioButton style="@style/RadioButtonBlue"
+                    android:id="@+id/Az6" />
+
+                <RadioButton style="@style/RadioButtonPurple"
+                    android:id="@+id/Mo6" />
+
+                <RadioButton style="@style/RadioButtonGray"
+                    android:id="@+id/Gr6"/>
+
+                <RadioButton style="@style/RadioButtonWhite"
+                    android:id="@+id/Bl6"/>
+
+                <RadioButton style="@style/RadioButtonGold"
+                    android:id="@+id/Do6" />
+
+                <RadioButton style="@style/RadioButtonPlate"
+                    android:id="@+id/Pl6" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Numero de bandas"
+            android:id="@+id/Bandas"
+            android:inputType="number"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Calcular"
+            android:layout_weight="1"
+            android:text="Calcular"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/Resultado"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginTop="1dp"/>
+    </LinearLayout>
+
+</LinearLayout>

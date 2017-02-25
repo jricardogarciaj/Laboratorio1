@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Coversion.iml" filepath="$PROJECT_DIR$/Coversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculadoraderesistencias/calculadoraderesistencias.iml" filepath="$PROJECT_DIR$/calculadoraderesistencias/calculadoraderesistencias.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator/calculator.iml" filepath="$PROJECT_DIR$/calculator/calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geometryvalues/geometryvalues.iml" filepath="$PROJECT_DIR$/geometryvalues/geometryvalues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quenota/quenota.iml" filepath="$PROJECT_DIR$/quenota/quenota.iml" />
     </modules>
   </component>
 </project>

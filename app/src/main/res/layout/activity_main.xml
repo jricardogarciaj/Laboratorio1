@@ -9,7 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.example.ricardo.coversion.MainActivity">
+    tools:context="com.example.ricardo.coversion.MainActivity"
+    android:background="@color/white">
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,17 +50,29 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:hint="ThePesos"
+            android:hint="Pesos"
             android:inputType="numberDecimal"
             android:id="@+id/ThePesos"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="COP"
+            android:layout_marginRight="12dp"/>
 
         <EditText
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:hint="LosDolares"
+            android:hint="Dolares"
             android:inputType="numberDecimal"
-            android:id="@+id/LosDolares"/>
+            android:id="@+id/LosDolares"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="USD" />
 
     </LinearLayout>
 
